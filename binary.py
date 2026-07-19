@@ -26,11 +26,9 @@ def divide(x, y):
 
     return sign * result
 
-
-# User Input
 x = float(input("Enter dividend (x): "))
 y = float(input("Enter divisor (y): "))
-
+22
 result = divide(x, y)
 
 if isinstance(result, str):
